@@ -18,9 +18,11 @@ public class Game extends Canvas implements Runnable {
 	private Handler handler;
 	
 	public Game () {
+		handler = new Handler();
+		
 		new Window (WIDTH,HEIGHT,"Waves ", this);
 		
-		handler = new Handler();
+		
 		r = new Random();
 		
 		for (int i = 0;i<50;i++) {
