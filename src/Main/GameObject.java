@@ -29,12 +29,13 @@ public abstract class GameObject {
 	public int getY() {
 		return y;
 	}
+	public ID getId() {
+		return id;
+	}
 	public void setId (ID id) {
 		this.id = id;
 	}
-	public ID getId(ID id) {
-		return id;
-	}
+	
 	public void setVelX (int velX) {
 		this.velX = velX;
 	}
